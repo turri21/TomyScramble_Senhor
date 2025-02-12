@@ -120,7 +120,7 @@ ENTITY ascal IS
     DOWNSCALE : boolean := true;
     BYTESWAP  : boolean := true;
     PALETTE   : boolean := true;
-    FRAC      : natural RANGE 4 TO 6 :=4;
+    FRAC      : natural RANGE 4 TO 8 :=4;
     OHRES     : natural RANGE 1 TO 4096 :=2048;
     IHRES     : natural RANGE 1 TO 2048 :=2048;
     N_DW      : natural RANGE 64 TO 128 := 128;
